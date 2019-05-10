@@ -1,0 +1,140 @@
+*{
+    overflow: hidden;
+    text-align: center;
+    transition: 0.4s;
+}
+body{
+    background: url(../img/bg-rail.jpg) no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* header */
+
+header{
+    text-align: center;
+}
+nav{
+    min-width: 100%;
+    background: #0000004f;
+    text-align: center;
+}
+nav .container{
+    text-align: center;
+}
+.navbar-nav{
+    text-align: center;
+    display: inline-block;
+}
+.navbar-nav .nav-item{
+    text-align: center;
+    float: left;
+    padding-top: 10px;
+}
+.navbar-nav .nav-item a{
+    padding: 5px 25px 5px;
+    color: #d7d7d7
+}
+.navbar-nav .logo{
+    text-align: center;
+    float: left;
+}
+.navbar-nav .logo a{
+    padding: 5px 10px 5px;
+    color: #d7d7d7;
+}
+.navbar-nav .logo a img {
+    width: 35px;
+    padding: 5px 0px;
+}
+.navbar-nav a{
+    text-transform: uppercase;
+}
+.navbar-nav a:hover {
+    color: #6b6b6b;
+    transition: 0.4s;
+}
+
+/* content */
+.content{
+    margin: 100px 0px 0px;
+}
+.content-left{
+    color: aliceblue;
+    float: left;
+    margin-top: 50px;
+}
+.content-left h1 {
+    text-align: left;
+    text-transform: uppercase;
+}
+.content-left p{
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.content-left ul {
+    float: left;
+    padding-right: 225px;
+    width: 100%;
+}
+.content-left ul li{}
+.content-left ul li::before {
+    color: #ffffff;
+    content: "\2022";
+    font-size: 15px;
+    padding-right: 25px;
+    top: 0em;
+}
+.content-left a {
+    margin: 0px;
+    padding: 5px 15px 5px;
+    background: #3c3c3c8c;
+    border-radius: 5px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    float: left;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.content-left a:hover{
+    background: #0f0f0f8c;
+    color: #9f9f9f;
+}
+
+.content-right {
+    float: left;
+    color: aliceblue;
+    background: #00000040;
+    border-radius: 10px;
+    width: 35%;
+    margin-left: 70px;
+    padding: 40px 15px;
+}
+.content-right h1{
+    text-transform: uppercase;
+}
+.content-right p{}
+.container form{}
+.content-right form .form-group{}
+.content-right form .form-group .form-control{}
+.content-right button {
+    background: #495057;
+    color: whitesmoke;
+    border: none;
+}
+.content-right button:hover{
+    background: #495057;
+}
+.content-right button:hover {
+    background: #6f6f6fdb;
+}
+.content-right button:active {
+    background: #1c1c1c;
+    color: whitesmoke;
+}
+.content-right button:focus {
+    outline: none;
+}
